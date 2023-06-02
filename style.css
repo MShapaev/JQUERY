@@ -1,0 +1,53 @@
+#modal {
+	display: none;
+}
+
+.modal-window {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	background: white;
+	border-radius: 5px;
+	width: 200px;
+	height: 100px;
+	text-align: center;
+	margin: 100px auto;
+  
+	
+}
+
+p {
+	text-align: center;
+	padding: 5px;
+	font-size: 14px;
+    text-decoration: dotted;
+}
+
+button {
+	background: gray;
+	border-radius: 5px;
+	width: 90px;
+	height: 45px;
+	font: 12px Arial;
+	color: black;
+	cursor: pointer;
+}
+
+#btn-1 {
+	display: block;
+	margin: 40px auto;
+}
+
+#btn-2 {
+	margin: auto auto 10px;
+}
+
+.blockpage {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: rgba(0,0,0,.7);
+	z-index: 100;
+}
